@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang=”en”>
+    <html>
+            <head>
+                    <meta charset=”utf-8” />
+                    <title>Simon Guessing Game</title>
+                    <link rel="stylesheet" href="SimonGuessingGame.css">
+                    <script src="SimonGuessingGame.js"></script>
+            </head>
+    <body>
+
+    <div id="all">
+      <div id="back"></div>
+      <div id="green" class="button"></div>
+      <div id="red" class="button"></div>
+      <div id="yellow" class="button"></div>
+      <div id="blue" class="button"></div>
+      <div id="lineup"></div>
+      <div id="linedown"></div>
+      <div id="front"></div>
+      <h3>Simon</h3>
+      <h4 id="trade">&reg</h4>
+      <p id="screen">00</p>
+      <p id="start">START</p>
+      <p id="instructions">Press start and once the sequence has played, play it back to advance to the next level ! (i pasted this into codepen after codeing it in vim and chrome. i dont think it likes some of the code i used for the animation, also i diddnt really like the strict mode so i just left it at the top to show i did it. i can see where this could be more polished but i feel ive learnt enough from doing it and want to move on, im quite pleased but could spend a lot longer making it better, but i dont think it would be a good use of time</p>
+      <p id="strictmode">strickmode</p>
+      <p id="light"></p>
+
+      <!-- sounds -->
+
+      <audio id="greensound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+      <audio id="redsound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+      <audio id="yellowsound" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+      <audio id="bluesound" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+      <audio volume="0.1" id="wrongesound" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
